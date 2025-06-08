@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    height: 100vh;
+}
+.app {
+display: flex;
+flex-direction: column;
+justify-content: start;
+min-height: 100vh;
+
+}
+
+.content-window {
+   display: flex;
+   justify-content: center;
+  background-color: oklch(98.5% 0.002 247.839);
+  flex: 1;
+    
+}
+
+.tab-content{
+    max-width: 56rem;
+}

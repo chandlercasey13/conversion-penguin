@@ -1,0 +1,60 @@
+.nav {
+  font-family: 'Inter';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100vw;
+  padding: 1rem;
+  border: 1px, solid, rgba(0, 0, 0, 0.05);
+}
+.navContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  margin: auto;
+}
+
+.title {
+   position: relative;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 1rem;
+  gap: 1.5rem;
+  
+}
+.tabButtons{
+   color: oklch(44.6% 0.03 256.802);
+  text-decoration: none;
+}
+
+.auth {
+  display: flex;
+  gap: 1rem;
+}
+
+.login {
+   font-size: 0.875rem;
+   line-height: 1.25rem;
+   border-radius: 6px;
+   padding: .5rem .75rem;
+   text-decoration: none;
+   color: black;
+}
+
+.signup {
+   font-size: 0.875rem;
+   line-height: 1.25rem;
+   text-decoration: none;
+   border-radius: 6px;
+   background-color: black;
+   color: white;
+   padding: .5rem .75rem;
+}
