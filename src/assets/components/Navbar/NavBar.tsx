@@ -2,7 +2,7 @@ import styles from './styles.module.css';
 import { Link } from 'react-router-dom';
 import { GiPenguin } from "react-icons/gi";
 
-const Navbar = () => {
+export default function Navbar() {
   return (
     <div className={styles.nav}>
         <div className={styles.navContainer}>
@@ -22,4 +22,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;

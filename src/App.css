@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+   font-family: 'Inter';
+;
 }
 
 html {
@@ -24,5 +26,6 @@ min-height: 100vh;
 }
 
 .tab-content{
-    max-width: 56rem;
+    padding-top: 2rem;
+    width: 56rem;
 }
